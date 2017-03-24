@@ -1,5 +1,5 @@
 <article class="s-article js-article">
-	<h2 class="s-article__title"><a href="#"><?php echo $article['title']; ?></a></h2>
+	<h3 class="s-article__title"><a href="#"><?php echo $article['title']; ?></a></h3>
 	
 	<figure class="o-image">
 		<a class="u-block-link" href="#" title="tooltip"></a>
@@ -14,10 +14,10 @@
 		<?php echo $article['content']; ?>
 	</div>
 
-	<footer class="s-article__tags">
-		<ul class="o-list">
+	<footer class="s-article__footer">
+		<ul class="o-tag">
 			<?php foreach($article['tags'] as $key => $tag): ?>
-				<li class="o-list__item">
+				<li class="o-tag__item">
 					<a href="<?php echo $tag['url']; ?>">
 						<?php echo $tag['name']; ?>
 					</a>
