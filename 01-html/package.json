@@ -1,0 +1,13 @@
+{
+  "name": "01-html",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:css": "node-sass --output-style compressed -o dist/css assets/css/main.scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}

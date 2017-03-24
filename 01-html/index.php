@@ -2,26 +2,22 @@
 <html>
 <head>
 	<title>Html - Blog Layout</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/css/main.css">
 </head>
 <body>
 
 	<?php include('partials/navigation.php'); ?>
 
-	<main>
-		
+	<main class="s-main">
 		<?php include('partials/search.php'); ?>
 		<?php include('partials/hero.php'); ?>
-
-		<?php include('data/article-data.php'); ?>
-		<?php foreach ($articles as $key => $article): ?>
-			<?php include('partials/article.php'); ?>
-		<?php endforeach; ?>
-
+		<?php include('partials/article-list.php'); ?>
 	</main>
 
-	<footer>
-		<a href="#">Prev</a>
-		<a href="#">Next</a>
+	<foother class="o-footer">
+		<a href="#" class="o-footer__nav">Prev</a>
+		<a href="#" class="o-footer__nav">Next</a>
 	</footer>
 
 </body>
