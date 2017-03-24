@@ -1,12 +1,21 @@
 body {
-	font-family: 'Lora' Georgia serif;
+	font-family: $lora;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat' Helvetica sans-serif;
+	font-family: $roboto-slab;
 }
 
 a {
 	text-decoration: none;
+	color: $dark-gray;
+	font-family: $montserrat;
+	&:hover {
+		color: $light-green;
+	}
+}
+
+ul {
+	list-style: none;
 }

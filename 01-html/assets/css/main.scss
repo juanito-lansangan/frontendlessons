@@ -1,16 +1,19 @@
-//settings
-
-//tools
 
 //globals
-@import "common/globals";
+@import "common/colors";
+@import "common/typography";
 
+//tools
+@import "tools/rem";
+
+//commons
+@import "common/globals";
 @import "common/utils";
 
-
 //objects
-
+@import "objects/tag";
 
 //components
-
+@import "components/main";
+@import "components/article";
 //trumps
