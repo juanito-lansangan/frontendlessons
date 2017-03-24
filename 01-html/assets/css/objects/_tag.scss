@@ -1,3 +1,11 @@
 .o-tag {
-	
+	padding: 0;
+	text-transform: uppercase;
+	&__item {
+		display: inline-block;
+		& > a {
+			color: $light-gray;
+			font-size: rem(11);
+		}
+	}
 }

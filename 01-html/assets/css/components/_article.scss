@@ -16,4 +16,8 @@
     	line-height: rem(23.33);
     	color: $dark-gray;
 	}
+	&__time {
+		font-size: rem(12);
+		text-transform: uppercase;
+	}
 }
