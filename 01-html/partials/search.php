@@ -8,6 +8,6 @@
 		<li><a href="#">RSS</a></li>
 	</ul>
 	<footer class="c-search__footer">
-		<a href="#">Simplify</a> version 1.21. Theme Designed & Developed by <a href="#">Amit Jakhu</a>. Powered by <a href="#">Tumblr.</a>
+		<a href="#">Simplify</a> version 1.21. Theme Designed &amp; Developed by <a href="#">Amit Jakhu</a>. Powered by <a href="#">Tumblr.</a>
 	</footer>
 </section>
