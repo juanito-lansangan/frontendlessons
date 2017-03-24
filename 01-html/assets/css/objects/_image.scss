@@ -1,0 +1,8 @@
+.o-image {
+	margin: 0;
+	&__picture > img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}

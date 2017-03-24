@@ -4,8 +4,8 @@
 	<figure class="o-image">
 		<a class="u-block-link" href="#" title="tooltip"></a>
 		<picture class="o-image__picture">
-			<source media="(min-width: 0px)" srcset="https://lh6.googleusercontent.com/-wL668xtWx0I/AAAAAAAAAAI/AAAAAAAAAAA/5iH4rLa5Gok/s128-c-k/photo.jpg">
-			<img src="https://lh6.googleusercontent.com/-wL668xtWx0I/AAAAAAAAAAI/AAAAAAAAAAA/5iH4rLa5Gok/s128-c-k/photo.jpg" alt="image text">
+			<source media="(min-width: 0px)" srcset="<?php echo $article['images']['default']; ?>">
+			<img src="https://cdn.pixabay.com/photo/2017/03/23/16/48/japanese-cherry-trees-2168858_960_720.jpg" alt="image text">
 		</picture>
 		<figcaption class="o-image__caption"></figcaption>
 	</figure>

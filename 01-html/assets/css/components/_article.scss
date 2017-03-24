@@ -9,4 +9,11 @@
 			font-family: $roboto-slab;
 		}
 	}
+
+	&__content {
+		font-size: rem(14);
+		letter-spacing: rem(0.014);
+    	line-height: rem(23.33);
+    	color: $dark-gray;
+	}
 }

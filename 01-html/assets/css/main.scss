@@ -6,12 +6,16 @@
 //tools
 @import "tools/rem";
 
+//generics
+@import "generic/normalize";
+
 //commons
 @import "common/globals";
 @import "common/utils";
 
 //objects
 @import "objects/tag";
+@import "objects/image";
 
 //components
 @import "components/main";
