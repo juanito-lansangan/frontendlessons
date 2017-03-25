@@ -15,10 +15,10 @@
 		<?php include('partials/article-list.php'); ?>
 	</main>
 
-	<!-- <foother class="o-footer">
+	<foother class="o-footer">
 		<a href="#" class="o-footer__nav">Newer Posts</a>
 		<a href="#" class="o-footer__nav">Older Posts</a>
-	</footer> -->
+	</footer>
 
 </body>
 </html>

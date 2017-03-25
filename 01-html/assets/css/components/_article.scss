@@ -45,4 +45,7 @@
 		    width: rem(76);
 		}
 	}
+	&:last-child {
+		border-bottom: none;
+	}
 }
