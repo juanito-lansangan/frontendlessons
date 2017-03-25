@@ -4,11 +4,17 @@
 
 	&__container {
 		max-width: rem(120);
+		@include breakpoint(small) {
+			max-width: rem(200);
+		}
 	}
 	&__title {
 		text-align: center;
 		font-weight: normal;
 		color: $dark-gray;
+		@include breakpoint(small) {
+			font-size: rem(50);
+		}
 		& > a {
 			font-family: $roboto-slab;
 		}

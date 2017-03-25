@@ -1,0 +1,42 @@
+.o-burger-nav {
+	position: absolute;
+    right: rem(20);
+    top: 0;
+
+	&:hover {
+		cursor: pointer;
+		span, span:before, span:after {
+			background: $light-green;
+		}
+	}
+
+	&__icon {
+		width: rem(25);
+	    height: rem(18);
+	}
+
+	span {
+		position: relative;
+		display: block;
+		top: rem(7);
+		height: rem(3);
+	    width: 100%;
+	    background: $black;
+
+	    &:before, &:after {
+			content: '';
+			position: absolute;
+		    display: block;
+		    height: rem(3);
+		    width: 100%;
+		    background: $black;
+	    }
+	    &:after {
+	    	bottom: rem(-7);	
+	    }
+	    &:before {
+	    	top: rem(-7);	
+	    }
+	    
+	}
+}

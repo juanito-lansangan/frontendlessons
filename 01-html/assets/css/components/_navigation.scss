@@ -1,0 +1,33 @@
+.c-nav {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: rem(45);
+    padding-bottom: rem(20);
+    border-bottom: 1px solid $light-gray2;
+	background: $white;
+	z-index: 1;
+
+	&__container {
+		position: relative;
+		max-width: rem(700);
+	}
+
+	&__logo {
+		width: rem(25);
+	    border-radius: 50%;
+	    vertical-align: top;
+	    margin-right: rem(16);
+	    margin-left: rem(20);
+	    display: inline-block;
+	}
+
+	&__title {
+		font-size: 1em;
+		margin: 0;
+		& > a {
+			font-family: $roboto-slab;
+			display: block;
+		}
+	}
+}

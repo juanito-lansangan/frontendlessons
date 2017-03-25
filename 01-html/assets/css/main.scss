@@ -15,13 +15,16 @@
 @import "common/globals";
 @import "common/utils";
 
+//components
+@import "components/main";
+@import "components/navigation";
+@import "components/hero";
+@import "components/article-list";
+@import "components/article";
+
 //objects
 @import "objects/tag";
 @import "objects/image";
+@import "objects/burger-nav";
 
-//components
-@import "components/main";
-@import "components/article-list";
-@import "components/article";
-@import "components/hero";
 //trumps
