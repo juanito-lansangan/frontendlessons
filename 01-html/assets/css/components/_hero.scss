@@ -1,0 +1,19 @@
+.c-hero {
+	margin-top: rem(125);
+	margin-bottom: rem(50);
+
+	&__container {
+		max-width: rem(120);
+	}
+	&__title {
+		text-align: center;
+		font-weight: normal;
+		color: $dark-gray;
+		& > a {
+			font-family: $roboto-slab;
+		}
+	}
+	img {
+		border-radius: 50%;
+	}
+}

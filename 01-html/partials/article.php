@@ -1,11 +1,11 @@
-<article class="s-article js-article">
+<article class="s-article u-mlr-r20 u-border-bot-gray-2r js-article">
 	<h3 class="s-article__title"><a href="#"><?php echo $article['title']; ?></a></h3>
 	
 	<figure class="o-image">
 		<a class="u-block-link" href="#" title="tooltip"></a>
 		<picture class="o-image__picture">
 			<source media="(min-width: 0px)" srcset="<?php echo $article['images']['default']; ?>">
-			<img src="https://cdn.pixabay.com/photo/2017/03/23/16/48/japanese-cherry-trees-2168858_960_720.jpg" alt="image text">
+			<img class="u-border-radius-r4" src="<?php echo $article['images']['default']; ?>" alt="image text">
 		</picture>
 		<figcaption class="o-image__caption"></figcaption>
 	</figure>

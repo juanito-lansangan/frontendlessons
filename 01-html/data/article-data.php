@@ -3,11 +3,11 @@ $articles = [
 	[
 		'title' => 'Sanctity of Human Life',
 		'images' => [
-			'default' => 'https://cdn.pixabay.com/photo/2017/03/23/16/48/japanese-cherry-trees-2168858_960_720.jpg',
+			'default' => 'http://lorempixel.com/640/480/',
 			'sizes' => [
-				'small' => 'https://cdn.pixabay.com/photo/2017/03/23/16/48/japanese-cherry-trees-2168858_960_720.jpg',
-				'medium' => 'https://cdn.pixabay.com/photo/2017/03/23/16/48/japanese-cherry-trees-2168858_960_720.jpg',
-				'large' => 'https://cdn.pixabay.com/photo/2017/03/23/16/48/japanese-cherry-trees-2168858_960_720.jpg',
+				'small' => 'http://lorempixel.com/640/480/',
+				'medium' => 'http://lorempixel.com/640/480/',
+				'large' => 'http://lorempixel.com/640/480/',
 			],
 			'alt' => 'Image text'
 		],
@@ -25,11 +25,19 @@ $articles = [
 		'tags' => 
 		[
 			[
-				'name' => 'Tag 1',
+				'name' => 'Photography',
 				'url' => '#'
 			],
 			[
-				'name' => 'Tag 2',
+				'name' => 'Wife',
+				'url' => '#'
+			],
+			[
+				'name' => 'Black and White',
+				'url' => '#'
+			],
+			[
+				'name' => 'Photographers on Tumblr',
 				'url' => '#'
 			],
 
@@ -40,11 +48,11 @@ $articles = [
 	[
 		'title' => 'Article #2',
 		'images' => [
-			'default' => 'https://cdn.pixabay.com/photo/2017/03/22/18/18/forest-2165911_960_720.jpg',
+			'default' => 'http://lorempixel.com/640/480/nature',
 			'sizes' => [
-				'small' => 'https://cdn.pixabay.com/photo/2017/03/22/18/18/forest-2165911_960_720.jpg',
-				'medium' => 'https://cdn.pixabay.com/photo/2017/03/22/18/18/forest-2165911_960_720.jpg',
-				'large' => 'https://cdn.pixabay.com/photo/2017/03/22/18/18/forest-2165911_960_720.jpg',
+				'small' => 'http://lorempixel.com/640/480/nature',
+				'medium' => 'http://lorempixel.com/640/480/nature',
+				'large' => 'http://lorempixel.com/640/480/nature',
 			],
 			'alt' => 'Image text'
 		],

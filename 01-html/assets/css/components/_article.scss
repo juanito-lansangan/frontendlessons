@@ -1,10 +1,19 @@
 .s-article {
-	padding-left: rem(20);
-	padding-right: rem(20);
+	padding-bottom: rem(33);
+	position: relative;
+	@include breakpoint(small) {
+		padding-bottom: rem(80);
+	}
 
 	&__title {
 		font-size: rem(23);
 		font-weight: normal;
+		@include breakpoint(small) {
+			font-size: rem(36);
+			margin-top: rem(83);
+			margin-bottom: rem(39);
+		}
+
 		& > a {
 			font-family: $roboto-slab;
 		}
@@ -12,12 +21,28 @@
 
 	&__content {
 		font-size: rem(14);
-		letter-spacing: rem(0.014);
+		letter-spacing: rem(0.14);
     	line-height: rem(23.33);
     	color: $dark-gray;
+    	margin-top: rem(30);
+    	margin-bottom: rem(18);
+    	@include breakpoint(small) {
+    		font-size: rem(18);
+    		line-height: rem(30);
+    		letter-spacing: rem(0.18);
+    		margin-bottom: rem(35);
+    	}
 	}
+
 	&__time {
 		font-size: rem(12);
 		text-transform: uppercase;
+		@include breakpoint(medium) {
+			position: absolute;
+		    top: rem(87);
+		    left: rem(-127);
+		    font-size: rem(18);
+		    width: rem(76);
+		}
 	}
 }

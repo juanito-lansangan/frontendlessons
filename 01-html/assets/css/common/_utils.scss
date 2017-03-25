@@ -4,3 +4,16 @@
 	margin-right: auto;
 	display: block;
 }
+
+.u-border-radius-r4 {
+	border-radius: 4px;
+}
+
+.u-border-bot-gray-2r {
+	border-bottom: 2px solid $light-gray2;
+}
+
+.u-mlr-r20 {
+	margin-left: rem(20);
+	margin-right: rem(20);
+}

@@ -1,11 +1,24 @@
 .o-tag {
 	padding: 0;
+	margin-top: 0;
+	margin-bottom: rem(11);
 	text-transform: uppercase;
+	@include breakpoint(small) {
+		margin-bottom: rem(17);
+	}
+
 	&__item {
 		display: inline-block;
+		height: rem(23);
+
 		& > a {
 			color: $light-gray;
 			font-size: rem(11);
+			padding-right: rem(10);
+			@include breakpoint(small) {
+				padding-right: rem(16);
+			}
 		}
+		
 	}
 }
