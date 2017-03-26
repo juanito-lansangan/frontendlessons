@@ -1,0 +1,15 @@
+.o-menu-list {
+	&__item {
+		text-align: center;
+		font-size: rem(28);
+		font-weight: bold;
+		@include breakpoint(small) {
+			font-size: rem(48);
+		}
+		& > a {
+			display: block;
+			padding: rem(15) 0;
+		}
+	}
+
+}

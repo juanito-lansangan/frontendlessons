@@ -1,0 +1,24 @@
+.c-burger-nav {
+	position: fixed;
+    top: 0;
+	height: 100vh;
+    padding-top: rem(145);
+    background: rgba(255,255,255,0.95);
+    z-index: 2;
+
+    &__footer {
+    	font-size: rem(12);
+	    color: $dark-gray2;
+	    text-align: center;
+	    line-height: rem(18);
+	    padding: rem(30) rem(18);
+    }
+}
+
+.c-burger-nav[data-state="show"] {
+    visibility: visible;
+}
+
+.c-burger-nav[data-state="hide"] {
+    visibility: hidden;
+}

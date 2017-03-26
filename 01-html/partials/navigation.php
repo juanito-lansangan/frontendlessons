@@ -1,4 +1,4 @@
-<nav class="c-nav">
+<nav class="c-nav u-border-bot-gray-1r">
 	<div class="c-nav__container container">
 		<h6 class="c-nav__title">
 			<a href="#">

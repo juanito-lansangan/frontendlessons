@@ -4,9 +4,8 @@
     width: 100%;
     padding-top: rem(45);
     padding-bottom: rem(20);
-    border-bottom: 1px solid $light-gray2;
 	background: $white;
-	z-index: 1;
+	z-index: 3;
 
 	&__container {
 		position: relative;

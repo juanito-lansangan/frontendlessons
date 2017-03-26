@@ -1,0 +1,21 @@
+.o-form-search {
+	input {
+		width: 90%;
+	    margin: 0 rem(30);
+	    display: block;
+	    border: none;
+	    text-align: center;
+	    font-size: 2em;
+	    font-family: $montserrat;
+	    font-weight: bold;
+	    outline: none;
+	    padding-bottom: rem(20);
+	    background: transparent;
+	    
+	    @include breakpoint(small) {
+	    	font-size: rem(60);
+	    	padding-bottom: rem(25);
+	    	padding-top: rem(10);
+	    }
+	}
+}

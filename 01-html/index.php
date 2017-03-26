@@ -8,9 +8,8 @@
 <body>
 
 	<?php include('partials/navigation.php'); ?>
-
+	<?php include('partials/burger-navigation-overlay.php'); ?>
 	<main class="s-main">
-		<?php //include('partials/search.php'); ?>
 		<?php include('partials/hero.php'); ?>
 		<?php include('partials/article-list.php'); ?>
 	</main>
