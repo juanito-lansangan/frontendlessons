@@ -1,4 +1,4 @@
-<article class="s-article u-mlr-r20 u-border-bot-gray-2r js-article">
+<article class="s-article [ u-mlr-r20 u-border-bot-gray-2r ] js-article">
 	<h3 class="s-article__title"><a href="#"><?php echo $article['title']; ?></a></h3>
 	
 	<figure class="o-image">
